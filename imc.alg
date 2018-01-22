@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 2/27/2017
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 massa, altura, imc: real
 op:caractere
@@ -15,7 +15,7 @@ Leia(altura)
 
 imc <- massa /(altura * altura)
 
-Escreval("O seu IMC é: ", imc)
+Escreval("O seu IMC Ã©: ", imc)
 
 Escreval("Deseja verificar qual o titulo (S/N) ? ")
 leia(op)
@@ -30,10 +30,10 @@ se (op = "S") ou (op = "s") entao
          se imc < 30 entao
             Escreval("Acima do peso")
          senao
-            se imc < 35 entao
+            se imc < 40 entao
                Escreval("Obeso")
             senao
-               se imc >= 40 entao
+               se imc > 40 entao
                   Escreval("Obesidade morbito")
                fimse
             fimse
